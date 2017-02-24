@@ -1,7 +1,7 @@
 ### scripts ggplot2 ###
 
-# Gabrielle Beca - gabrielle.beca@gmail.sp 
-# Maurício Humberto Vancine - mauricio.vancine@gmail.sp
+# Gabrielle Beca - gabrielle.beca@gmail.com 
+# MaurÃ­cio Humberto Vancine - mauricio.vancine@gmail.com
 
 ###-------------------------------------------------------------------------------------------###
 						### rda ####
