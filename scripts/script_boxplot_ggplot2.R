@@ -1,6 +1,6 @@
 ### scripts ggplot2 ###
 
-# Maurício Humberto Vancine - mauricio.vancine@gmail.com
+# MaurÃ­cio Humberto Vancine - mauricio.vancine@gmail.com
 
 # packages
 # install.packages("ggplot2", dep = T)
@@ -53,10 +53,6 @@ ggplot(data = da, aes(x = lan, y = sui)) +
 
 # save
 ggsave("boxplot_ jitter.tiff", he = 18, wi = 18, un = "cm", dpi = 300)
-
-
-ggplot(data = da, aes(x = lan, y = sui))
-
 
 ###-----------------------------------------------------------------------------------------###
 
