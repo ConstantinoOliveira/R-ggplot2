@@ -65,6 +65,8 @@ rda.biplot <- rda.plot1 +
 #geom_text(data = df1, aes(x = RDA1, y = RDA2, label = rownames(df1)), size = 3, color = "gray55", fontface = 1)
 rda.biplot
 
+ggsave("rda.tiff", wi = 18, he = 18, un = "cm")
+
 
 
 
