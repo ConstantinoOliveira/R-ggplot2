@@ -62,7 +62,8 @@ ggsave("boxplot_ jitter.tiff", he = 18, wi = 18, un = "cm", dpi = 300)
 ###-----------------------------------------------------------------------------------------###
 
 
-da <- data.frame(su = abs(rnorm(100)), out = factor(rep(c("Inside", "Out"), each = 50)), cl = NA)
+da <- data.frame(y = abs(rnorm(100)), x = factor(rep(c("Inside", "Outside"), each = 50)), 
+			cl = NA, col = NA)
 da
 
 for(i in 1:nrow(da)){
@@ -75,14 +76,30 @@ for(i in 1:nrow(da)){
   else if(da[i, 1] > .75){  
     da[i, 3] <- "0.75-1.00"}}
 
-ggplot(data = da, aes(x = cl, y = su, fill = out)) + 
-	 geom_boxplot() + guides(fill = FALSE) +
+color <- c("red", "blue")
+
+for(i in 1:length(levels(da$x))){
+  da$col[da$x == levels(da$x)[i]] <- color[i]}
+
+
+ggplot(data = da, aes(x = cl, y = y, fill = x)) + 
+	 geom_boxplot() + guides(fill = F) +
  	 scale_fill_manual(values = c("blue", "red")) + 
+ 	 scale_colour_manual(values = c("blue", "red")) +
 	 theme(legend.position = "none") +
-         facet_wrap( ~out, scales = "fixed") +
+       facet_wrap( ~x, scales = "fixed") +
 	 xlab("Places") +
 	 ylab("Suitability")
 
+ggplot(data = da, aes(x = cl, y = y, fill = x)) + 
+	 geom_boxplot() + guides(fill = F) +
+ 	 scale_fill_manual(values = c("white", "white")) + 
+	 geom_jitter(colour = adjustcolor(da$col, .4), width = 0.2) +
+	 theme(legend.position = "none") +
+       facet_wrap( ~x, scales = "fixed") +
+	 xlab("Places") +
+	 ylab("Suitability")
+	  
 ###-----------------------------------------------------------------------------------------###
 
 
