@@ -1,16 +1,15 @@
-### scripts ggplot2 ###
+### scripts rda ###
 
-# Gabrielle Beca - gabrielle.beca@gmail.com 
-# MaurÃ­cio Humberto Vancine - mauricio.vancine@gmail.com
+# Maurí­cio Humberto Vancine - mauricio.vancine@gmail.com
 
-###-------------------------------------------------------------------------------------------###
-						### rda ####
 ###-------------------------------------------------------------------------------------------###
 
 # packages
 library(vegan)
 library(ggplot2)
 library(grid)
+
+###-------------------------------------------------------------------------------------------###
 
 # data
 da.e <- data.frame(va1 = rnorm(100, 2), va2 = rnorm(100, 5), va3 = rnorm(100))
