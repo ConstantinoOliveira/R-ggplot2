@@ -1,6 +1,6 @@
 ### scripts ggplot2 ###
 
-# Maurício Humberto Vancine - mauricio.vancine@gmail.com
+# Mauricio Humberto Vancine - mauricio.vancine@gmail.com
 
 # packages
 # install.packages("ggplot2", dep = T)
