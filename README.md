@@ -14,3 +14,5 @@ Scripts for graphics in ggplot2 package
 - [The Complete ggplot2 Tutorial - Part1](http://r-statistics.co/Complete-Ggplot2-Tutorial-Part1-With-R-Code.html)
 
 - [The Complete ggplot2 Tutorial - Part2](http://r-statistics.co/Complete-Ggplot2-Tutorial-Part2-Customizing-Theme-With-R-Code.html)
+
+- [As cinco melhores extensões ao ggplot2](http://www.ibpad.com.br/blog/cinco-melhores-extensoes-ao-ggplot2/?utm_medium=redesads&utm_source=fb&utm_campaign=ciendadr&utm_content=749)
