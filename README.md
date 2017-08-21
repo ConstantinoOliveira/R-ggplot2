@@ -15,4 +15,8 @@ Scripts for graphics in ggplot2 package
 
 - [The Complete ggplot2 Tutorial - Part2](http://r-statistics.co/Complete-Ggplot2-Tutorial-Part2-Customizing-Theme-With-R-Code.html)
 
+- [Catalog of visualization types to find the one that fits your dataset](http://flowingdata.com/2017/08/18/catalog-of-visualization-types-to-find-the-one-that-fits-your-dataset/)
+
 - [As cinco melhores extensões ao ggplot2](http://www.ibpad.com.br/blog/cinco-melhores-extensoes-ao-ggplot2/?utm_medium=redesads&utm_source=fb&utm_campaign=ciendadr&utm_content=749)
+
+
