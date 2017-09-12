@@ -2,9 +2,20 @@
 
 # Mauricio Humberto Vancine - mauricio.vancine@gmail.com
 
-# packages
-# install.packages("ggplot2", dep = T)
-library(ggplot2)
+###---------------------------------------------------------------------###
+### boxplot ###
+###---------------------------------------------------------------------###
+
+# memory
+rm(list = ls())
+gc()
+memory.limit(size = 1.75e13)
+
+# packages 
+if(!require("pacman")) install.packages("pacman")
+pacman::p_load(data.table, ggplot2)
+
+###---------------------------------------------------------------------###
 
 
 # data
@@ -102,7 +113,7 @@ ggplot(data = da, aes(x = cl, y = y, fill = x)) +
 	  
 ###-----------------------------------------------------------------------------------------###
 
-https://github.com/zonination/perceptions
+# https://github.com/zonination/perceptions
 
 
 
