@@ -19,4 +19,6 @@ Scripts for graphics in ggplot2 package
 
 - [As cinco melhores extensões ao ggplot2](http://www.ibpad.com.br/blog/cinco-melhores-extensoes-ao-ggplot2/?utm_medium=redesads&utm_source=fb&utm_campaign=ciendadr&utm_content=749)
 
+## Tutorial
+- [Introduction to R Graphics with ggplot2](http://tutorials.iq.harvard.edu/R/Rgraphics/Rgraphics.html#org93999d8)
 
